@@ -81,7 +81,7 @@ TextureImporter:
       213: -3947773304791079134
     second: UI_PreviousStepButton
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -102,6 +102,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,6 +141,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -203,6 +205,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -589,7 +603,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 74b3cd4c67c5d2300800000000000000
-      internalID: 228940821244427079
+      internalID: 9048127090049281424
       vertices: []
       indices: 
       edges: []
@@ -751,6 +765,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      UI_Arrow: -256003546741158619
+      UI_Checkmark: 9084407170249120912
+      UI_CloseButton: 9048127090049281424
+      UI_HintButton: -5481780447360278658
+      UI_HomeButton: 8160775752198118580
+      UI_Levels: -273060469431498887
+      UI_MenuPlayButton: -8346291274449466048
+      UI_MirroredArrow: 238177201661318622
+      UI_MusicDisabled: 8391660652416901024
+      UI_MusicEnabled: -6595680761151332689
+      UI_NextButton: 8586885197115800619
+      UI_Outline: -4532114073746202998
+      UI_Panel: 388057999756033245
+      UI_PauseButton: 82707731993968007
+      UI_PlayButton: 7843416716369364892
+      UI_PrevButton: -4464969597253999955
+      UI_PreviousStepButton: -3947773304791079134
+      UI_ReplayButton: -1557013538026691241
+      UI_Settings: 9094600903545770030
+      UI_SoundsDisabled: 7301787903208175943
+      UI_SoundsEnabled: -343943630576144839
+      UI_SquareOutline: 7448113381798972013
+      UI_Star: 1080825480604336155
+      UI_StarFilled: -9136572144232859775
+      UI_ViewAd: 1652299931923453484
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
